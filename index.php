@@ -2,12 +2,19 @@
 <html lang="fr">
     <head>
         <?php include 'partials/head.php'; ?>
-        <title>Titre</title>
+        <title>PowerFreak</title>
         <meta name="description" content="Description de la page" />
     </head>
 
     <body>
-      Contenu
+      <header>
+        <div class="head">
+        <a href="#"><img src="images/powerfreak_logo.png" alt="logo" /></a>
+
+        </div>
+      </header>
+      <!-- **HEADER** -->
+
     </body>
 
 </html>
