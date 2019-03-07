@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin-ext');
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @font-face {
     font-family: 'aileronblack';
     src: url('../fonts/aileron-black-web font.woff2') format('woff2'),
@@ -29,9 +30,9 @@ html {
 }
 
 body {
-  font-family: 'aileronlight';
+  font-family: 'Quicksand', sans-serif;;
   font-size: 100%;
-  
+  font-weight:400;
 }
 
 /* --------------- Resets */

@@ -1,0 +1,87 @@
+.section1{
+  background-color: #ffffff;
+  height:50vh;
+  display:flex;
+}
+
+.section1 h1{
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: right;
+  margin-right:8vw;
+  padding-top: 18vh;
+}
+
+.section1 h1 em{
+  font-style:normal;
+  font-size: 4.2rem;
+  color:#78b743;
+}
+
+}
+.section1 h1 em{
+  font-style:normal;
+  font-size: 4.2rem;
+  color:#78b743;
+}
+
+.section1 img{
+  height:118%;
+  margin-top: 0;
+  position:relative;
+}
+
+.section2{
+  background: url('../../images/visuel_framboise3_slider.png') no-repeat center;
+  height:760px;
+}
+
+.section2 h2{
+  padding-top:2vh;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding-right: 2vw;
+  padding-top: 35vh;
+  padding-left: 2vw;
+}
+
+.section2 em{
+  font-style: normal;
+  font-size:4.2rem;
+  color:#cb0b5c;
+}
+.section2 p{
+  padding-left: 2vw;
+  font-size:1.2rem;
+}
+
+.section3{
+  height:700px;
+  background: url('../../images/swiss_mountains.png') no-repeat center;
+  padding-top:15vh;
+}
+.section3 p em{
+  font-style: normal;
+  font-weight: 700;
+  font-size:1.3rem;
+}
+.icon h3{
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.icon img{
+  display:block;
+  margin:auto;
+}
+
+.section3 p{
+  font-weight:400;
+  font-size:1.2rem;
+  color:black;
+  text-align: center;
+  padding-bottom: 8vh;
+}

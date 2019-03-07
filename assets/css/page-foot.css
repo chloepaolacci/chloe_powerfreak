@@ -1,0 +1,22 @@
+.foot{
+  height:50vh;
+
+}
+
+.foot p{
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.foot ul{
+  list-style:none;
+  display:flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left:95vh;
+  margin-right:95vh;
+  margin-top: 5vh;
+}
+.link a{
+  color:black;
+}
