@@ -79,9 +79,8 @@
   text-align: center;
   padding-bottom: 8vh;
 }
-/* ****************************** section ****************************** */
+/* ****************************** section home****************************** */
 .section {
-  height:65vh;
   padding: 10vh 15vw;
 }
 
@@ -125,8 +124,56 @@ p em {
   font-size:1.1rem;
 }
 
-.section.cans p {
+.section.cans h4{
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  padding-bottom: 5vh;
+}
+
+.section.cans p em{
+  font-size:2.5rem;
+  font-weight: 700;
+  color:#cb0b5c;
+  padding:0.5vh;
+}
+
+.cans img{
+display: block;
+margin: auto;
+padding: 0vh 0vw 5vh;
+}
+
+details {
+    border: 3px solid #000;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    text-align:center;
+
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
+
+details summary p{
+  font-family: 'Quicksand', cursive ;
+  text-align: center;
+}
+
+.section.wall{
+  background-color: #faf7f7;
 }
 
 /* ****************************** RECYCLAGE ****************************** */
