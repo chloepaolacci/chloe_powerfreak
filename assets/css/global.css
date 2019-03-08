@@ -7,7 +7,7 @@
 /* @import "components/texts.css"; */
 
 /* parts */
- @import "page-head.css";
- @import "page-anchors.css";
- @import "page-content.css";
- @import "page-foot.css";
+ @import "parts/page-head.css";
+ @import "parts/page-anchors.css";
+ @import "parts/page-content.css";
+ @import "parts/page-foot.css";

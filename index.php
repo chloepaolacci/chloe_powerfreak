@@ -7,40 +7,8 @@
     </head>
 
     <body>
-      <header class="head">
 
-        <div class="langage">
-        <p> <a href="#" title="francais">FR</a> |  <a href="#" title="english">EN</a>  | <a href="#" title="deutch"> DE </a> |  <a href="#" title="italian">IT</a>  </p>
-        </div>
-
-        <div class="shop">
-          <a href="#"><img src="images/shop-icon.png" alt="shop" width="35px" /></a>
-          <p>Shop</p>
-        </div>
-
-        <div class="logo">
-        <a href="#"><img src="images/powerfreak_logo.png" alt="logo" width="300px"/></a>
-        </div>
-
-        <nav class="menu">
-          <ul>
-            <li>
-              <a href="#" title="Home-Page">Home</a>
-            </li>
-            <li>
-              <a href="#" title="Priorite-recyclage">Priorité Recyclage</a>
-            </li>
-            <li>
-              <a href="#" title="PowerFreak">PowerFreak</a>
-            </li>
-            <li>
-              <a href="#" title="Contact">Contactez-Nous</a>
-            </li>
-          </ul>
-        </nav>
-
-      </header>
-      <!-- **HEADER** -->
+      <?php include 'partials/header.php'; ?>
 
       <div class="section1">
         <img src="images/visuel_section.png" alt="nouveauté" />
@@ -63,23 +31,8 @@
       </div>
       <!-- **SECTION 3** -->
 
-      <div class="foot">
-        <p>Sign up to our Newsletter</p>
-        <ul>
-          <li>
-            <img src="images/icon-fb.png" alt="logo" width="30px"/>
-          </li>
-          <li>
-            <img src="images/icon-insta.png" alt="logo" width="30px"/>
-          </li>
-          <li>
-            <img src="images/icon-twitter.png" alt="logo" width="30px"/>
-          </li>
-        </ul>
-        <p>©PowerFreak</p>
-          <p class="link"> <a href="#" title="Sell">SELL OUR DRINK</a> |  <a href="#" title="Privacy-policy">PRIVACY POLICY</a>  | <a href="#" title="Faq"> FAQ </a> |  <a href="#" title="Mentions-legales">MENTIONS LEGALES</a>  </p>
-      </div>
-      <!-- **FOOTER** -->
+      <?php include 'partials/footer.php'; ?>
+
     </body>
 
 </html>

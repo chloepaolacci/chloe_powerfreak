@@ -1,11 +1,21 @@
 .foot{
-  height:50vh;
+  height:35vh;
 
 }
-
-.foot p{
+.newsletter{
+  text-align:center;
+}
+.newsletter p{
   text-align: center;
   margin-top: 5vh;
+}
+.newsletter a{
+  color:black;
+}
+
+.newsletter img{
+  margin-top: 2vh;
+  width:5vh;
 }
 
 .foot ul{
@@ -23,4 +33,9 @@
 
 .link{
   font-size: 0.8rem;
+}
+
+.foot p{
+  text-align: center;
+  margin-top: 5vh;
 }
