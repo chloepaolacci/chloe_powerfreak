@@ -1,7 +1,7 @@
 <div class="foot">
   <div class="newsletter">
-  <p>Sign up to our Newsletter</p>
-  <a href="#" title="newsletter" target="blank"><img src="images/arrow.png" alt="newsletter"/>
+      <p>Sign up to our Newsletter</p>
+      <a href="#" title="newsletter" target="blank"><img src="images/arrow.png" alt="newsletter"/></a>
   </div>
   <ul>
     <li>

@@ -10,7 +10,7 @@
 
       <?php include 'partials/header.php'; ?>
 
-      <section class="section intro" style="background-image: url('images/visuel_recyclage.png')">
+      <section class="section intro">
         <h1 class="title-1"><em>"</em>L’énergie ne se perd jamais, elle se transmet...</h1>
         <h2 class="title-2">Julius Robert von Mayer (1814 - 1878)</h2>
         <p>La production et la distribution de Power Freak en Suisse nécessitent <br>
@@ -43,12 +43,13 @@ empreinte carbone tout au long du cycle de vie d’une canette.</em><p>
       <!-- **SECTION 2** -->
 
       <section class="section wall">
-        <h5 class="title-1">Production en Wall-to Wall</h5>
+        <h5 class="title-1"><em>"</em>Production en Wall-to Wall</h5>
         <h6 class="title-2">Economiser les ressources en passant par de courtes distances</h6>
         <p>La production en « wall to wall » permet chaque année d'économiser plus de<br>
           1643 tonnes d'émissions de CO2 par an <br>
           Cela signifie que la production et le remplissage ont lieu sur le même site,<br>
           ce qui fait beaucoup de kilomètres de transport économisés..</p>
+
       </section>
       <!-- **SECTION 3** -->
       <?php include 'partials/footer.php'; ?>

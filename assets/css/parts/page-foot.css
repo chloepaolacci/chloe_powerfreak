@@ -22,10 +22,15 @@
   list-style:none;
   display:flex;
   justify-content: center;
-  justify-content: space-between;
-  margin-left:95vh;
-  margin-right:95vh;
+  justify-content: space-around;
   margin-top: 5vh;
+}
+@media screen and (min-width: 768px) {
+  .foot ul{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
 }
 .link a{
   color:black;

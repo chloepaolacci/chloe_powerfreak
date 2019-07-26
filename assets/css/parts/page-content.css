@@ -1,16 +1,31 @@
 .section1{
   background-color: #ffffff;
-  height:50vh;
-  display:flex;
+  margin-top: 8vh;
+}
+.section1 > div:nth-child(2) {
+  padding: 5vh;
+}
+@media screen and (min-width: 768px) {
+  .section1{
+    display:flex;
+    height:50vh;
+    align-items: center;
+  }
+  .section1 > div:first-child {
+    flex: 1.5;
+  }
+  .section1 > div {
+    flex: 1;
+  }
+  .section1 > div:nth-child(1) {
+    padding-left: 10vh;
+  }
 }
 
 .section1 h1{
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   font-size: 3.5rem;
-  text-align: right;
-  margin-right:8vw;
-  padding-top: 18vh;
 }
 
 .section1 h1 em{
@@ -19,26 +34,33 @@
   color:#78b743;
 }
 
+
 .section1 img{
-  height:118%;
-  margin-top: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 0vh;
   position:relative;
-  margin-left:15vw;
 }
 
 .section2{
   background: url('../../images/visuel_framboise3_slider.png') no-repeat center;
-  height:760px;
+  background-size: cover;
+}
+.section2 > div {
+  padding: 10vh 5vh;
+}
+@media screen and (min-width: 768px) {
+  .section2 > div {
+    padding: 25vh 15vh;
+  }
 }
 
 .section2 h2{
-  padding-top:2vh;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   font-size: 3.5rem;
-  padding-right: 2vw;
-  padding-top: 35vh;
-  padding-left: 2vw;
+  line-height: 1em;
+  margin-bottom: 2.5vh;
 }
 
 .section2 em{
@@ -47,13 +69,14 @@
   color:#cb0b5c;
 }
 .section2 p{
-  padding-left: 2vw;
   font-size:1.2rem;
+  line-height: 1.2em;
 }
 
 .section3{
   height:700px;
   background: url('../../images/swiss_mountains.png') no-repeat center;
+  background-size: cover;
   padding-top:15vh;
 }
 .section3 p em{
@@ -79,6 +102,22 @@
   text-align: center;
   padding-bottom: 8vh;
 }
+.scroll{
+  position:fixed;
+  bottom:0;
+  left:50%;
+  padding:0 10vh;
+  width: 50%;
+  margin-left: -25%;
+  }
+
+.scroll img{
+  height:auto;
+  width:30px;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* ****************************** section home****************************** */
 .section {
   padding: 10vh 15vw;
@@ -97,7 +136,9 @@
 .title-1 {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
-  font-size: 3.5rem;
+font-size: 3.25rem;
+line-height: 1em;
+margin-bottom: 5vh;
 }
 .title-1 em{
   font-size: 4.5rem;
@@ -114,7 +155,7 @@
   font-size: 1.5rem;
 }
 
-p {
+p:not:(:last-child) {
   margin-bottom:5vh;
 }
 
@@ -156,8 +197,11 @@ summary {
     font-weight: bold;
     margin: -.5em -.5em 0;
     padding: .5em;
+    cursor: pointer;
 }
-
+summary:focus {
+    outline:none;
+}
 details[open] {
     padding: .5em;
 
@@ -175,5 +219,38 @@ details summary p{
 .section.wall{
   background-color: #faf7f7;
 }
+.section.wall {
+  background: no-repeat center;
+}
+.section.info p{
+margin-top:0;
+}
+.section.contact{
+  background: url('../../../images/contact.png') no-repeat center;
+  background-size: cover;
+  padding: 20vh 5vh;
+}
+.info-contact{
+  color:white;
+  text-align: center;
+}
+
+.section.about{
+  padding:19vh;
+  background: no-repeat center;
+  text-align:center;
+}
+.section.about a{
+  color:black;
+}
 
 /* ****************************** RECYCLAGE ****************************** */
+
+.section.intro {
+  background: url('../../../images/visuel_recyclage.png') no-repeat center;
+  background-size: cover;
+}
+.section.wall {
+  background: url('../../../images/wall_to_wall.png') no-repeat center;
+  background-size: cover;
+}

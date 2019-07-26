@@ -11,14 +11,20 @@
       <?php include 'partials/header.php'; ?>
 
       <div class="section1">
-        <img src="images/visuel_section.png" alt="nouveauté" />
-        <h1> <em>100%</em> Recyclable  |  <em>100%</em> Eco-Responsable<br> <em>100%</em> Made In Valais</h1>
+        <div>
+          <img src="images/visuel_section.png" alt="nouveauté" />
+        </div>
+        <div>
+          <h1> <em>100%</em> Recyclable  |  <em>100%</em> Eco-Responsable<br> <em>100%</em> Made In Valais</h1>
+        </div>
       </div>
       <!-- **SECTION 1** -->
 
       <div class="section2">
-        <h2>Deux goûts <em>100%</em> naturels</h2>
-        <p>Venez découvrir nos parfums incontournables de saison</p>
+        <div>
+          <h2>Deux goûts <em>100%</em> naturels</h2>
+          <p>Venez découvrir nos parfums incontournables de saison</p>
+        </div>
       </div>
       <!-- **SECTION 2** -->
 
@@ -30,7 +36,6 @@
         </div>
       </div>
       <!-- **SECTION 3** -->
-
       <?php include 'partials/footer.php'; ?>
 
     </body>

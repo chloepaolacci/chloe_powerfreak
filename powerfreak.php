@@ -10,11 +10,11 @@
 
       <?php include 'partials/header.php'; ?>
 
-      <section class="section intro">
-        <h1 class="title-1"><em>"</em>PAGE ABOUT</h1>
+      <section class="section about" style="background-image: url('images/ABOUT.png')">
+        <h1 class="title-1"><a href="https://energydrink-fr.redbull.com/red-bull-canette" title="PowerFreak" target="_blank"> QUI SOMMES-NOUS? </a></h1>
+
       </section>
       <!-- **SECTION 1** -->
-
       <?php include 'partials/footer.php'; ?>
 
     </body>
